@@ -1,0 +1,178 @@
+
+<?php $__env->startSection('title','Home'); ?>
+<?php $__env->startSection('content'); ?>
+
+<section class="hero hero--home">
+<div class="overlay"></div>
+    <div class="container">
+        <h1 data-aos="fade-up" data-aos-once="true">Place Wagers. Win Money!</h1>
+        <p>
+            Place wagers or challenge friends on Fortnite. 
+            <br>
+            Jump into a match instantly with quick matchmaking!
+        </p>
+        <a href="./register.php">
+            <button class="button button--main button--home">
+                Get started for free!
+            </button>
+        </a>
+    </div>
+    <div class="button" id="scroll-down-btn">
+        <img src="<?php echo e(url('public/assets/icons/scroll_icon.svg')); ?>" alt="image">
+    </div>
+</section>
+<section id="benefits">
+    <div class="container">
+
+        <div class="row">
+        <div class="col col-12 col-md-4 mb-4">
+                <div class="card benefits__card">
+                    <div class="benefits-card__icon-wrapper">
+                        <img class="mb-4" src="<?php echo e(url('public/assets/icons/secure_no-circle.svg')); ?>" alt="image">
+                    </div>
+                    
+                    <h2>Play securely</h2>
+                    <p>
+                        Automatic score counting and safe payment make playing easy and secure. 
+                    </p>
+                </div>
+            </div>
+            <div class="col col-12 col-md-4 mb-4">
+                <div class="card benefits__card">
+                    <div class="benefits-card__icon-wrapper">
+                        <img class="mb-4" src="<?php echo e(url('public/assets/icons/money_no-circle.svg')); ?>" alt="">
+                    </div>          
+                    <h2>Play For Real Money</h2>
+                    <p>
+                        Pay for your wagers using PayPal. The combined wager gets added to the winner’s credits. 
+                    </p>
+                </div>
+            </div>
+            <div class="col col-12 col-md-4 mb-4">
+                <div class="card benefits__card">
+                    <div class="benefits-card__icon-wrapper">
+                        <img class="mb-4" src="<?php echo e(url('public/assets/icons/support_no-circle.svg')); ?>" alt="">
+                    </div>      
+                    <h2>24/7 Support</h2>
+                    <p>
+                        Our support team is always ready to resolve game disputes and answer your questions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="home-explanation pt-3">
+    <div class="row">
+        <div data-aos="slide-right" data-aos-once="true" class="col col-12 col-md-6">
+            <img class="explanation-img" src="<?php echo e(url('public/assets/images/home_play_against.png')); ?>" alt="image">
+            <img class="explanation-img mobile" src="<?php echo e(url('public/assets/images/home_play_against_mobile.jpg')); ?>" alt="image">
+        </div>
+        <div data-aos="slide-left" data-aos-once="true" class="col col-12 col-md-6 p-4">
+            <h2 class="text-small underline-left">Play against anybody in the world and win real money</h2>
+            <p>
+                Use our easy matchmaking system to instantly play Fortnite matches against players around the world on Xbox, PS4
+                or PC. Sign up for free and start placing wagers!
+            </p>
+            <span class="platform-icon d-inline-block mr-4 mt-4 text-center">
+                <img class="mb-2 is-hidden" src="<?php echo e(url('public/assets/icons/xbox-icon_blue.svg')); ?>" alt="image">
+                <img class="mb-2" src="<?php echo e(url('public/assets/icons/xbox-icon.svg')); ?>" alt="">
+                <p>XBOX</p>
+            </span>         
+            <span class="platform-icon d-inline-block mr-4 mt-4 text-center">
+                <img class="mb-2 is-hidden" src="<?php echo e(url('public/assets/icons/ps4-icon_blue.svg')); ?>" alt="image">
+                <img class="mb-2" src="<?php echo e(url('public/assets/icons/ps4-icon.svg')); ?>" alt="image">
+                <p>PS4</p>
+            </span>
+            <span class="platform-icon d-inline-block text-center">
+                <img class="mb-2 is-hidden" src="<?php echo e(url('public/assets/icons/pc-icon_blue.svg')); ?>" alt="image">
+                <img class="mb-2" src="<?php echo e(url('public/assets/icons/pc-icon.svg')); ?>" alt="image">
+                <p>PC</p>
+            </span>
+        </div>
+    </div>
+</section>
+<section id="how-it-works" class="pt-0">
+    <div class="container">
+        <div class="row">
+            <div data-aos="slide-right" data-aos-once="true" class="col col-12 col-lg-6">
+                <h2>How it Works</h2>
+                <p class="step-container">
+                    <span class="step-circle">1</span>Register for free to start.
+                </p>
+                <p class="step-container">
+                    <span class="step-circle">2</span>Go to your account page and deposit the money you want to use to wager.
+                </p>
+                <p class="step-container">
+                    <span class="step-circle">3</span>Go to the wagers page and choose the options for your wager and click place wager.
+                </p>
+                <p class="step-container">
+                    <span class="step-circle">4</span>When you've been matched up against an opponent and you're in the lobby room, add your opponents in-game name and discuss the rules in chat. Click confirm attendance whenever your ready to make sure you’re not AFK. You must confirm attendance in less than 5 minutes from entering the lobby.
+                </p>
+                <p class="step-container">
+                    <span class="step-circle">5</span>Your kills will automatically go up as your Fortnite kills go up which means that noone will be able to lie about their score! After one party reaches 5 kills the game will stop and the winner will get the combined wager! If the opponent leaves please click dispute and send a screenshot of the score.
+                </p>
+                <p class="step-container">
+                    <span class="step-circle">6</span>Withdraw from your wallet right into your paypal!
+                </p>
+            </div>
+
+            <div class="col col-12 col-md-6 order-first order-md-last">
+                <img data-aos="slide-left" data-aos-once="true" class="how-it-works__img-mobile d-block d-md-none" src="<?php echo e(url('public/assets/images/home_how_to_play_mobile.jpg')); ?>" alt="image">
+            </div>
+        </div>
+    </div>
+    <img data-aos="slide-left" data-aos-once="true" class="how-it-works__img d-none d-md-block" src="<?php echo e(url('public/assets/images/home_how_to_play.png')); ?>" alt="image">
+</section>
+<section class="cta-strip">
+    <div data-aos="fade-in" data-aos-once="true" class="container text-center" data-aos="fade-up" data-aos-once="true">
+        <h2 class="mb-3">
+            Start placing wagers now
+        </h2>
+        <p>
+            Sign up for free to start competing against players all over the world. Registering is free, you
+            only pay for the wagers you place.
+        </p>
+        <a href="<?php echo e(route('register')); ?>">
+            <button class="button button--main">
+                Sign Up to Start
+            </button>
+        </a>       
+    </div>
+</section>
+<script type='text/javascript'>
+window.__lo_site_id = 201934;
+
+    (function() {
+        var wa = document.createElement('script'); wa.type = 'text/javascript'; wa.async = true;
+        wa.src = 'https://d10lpsik1i8c69.cloudfront.net/w.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
+      })();
+    </script>
+<script>
+    function msieversion() {
+        var ua = window.navigator.userAgent;
+        var msie = ua.indexOf("MSIE ");
+
+        if (msie > 0) {
+            console.log("Using IE10")
+            fixAOS();
+        }
+    }
+    var ua = window.navigator.userAgent;
+    var trident = ua.indexOf('Trident/');
+    if (trident > 0) {
+        console.log("Using IE11");
+        fixAOS();
+    }
+    msieversion();
+    function fixAOS() {
+        $("[data-aos^=fade][data-aos^=fade]").css("opacity", "1");
+    }
+    $(document).ready(function () {
+        msieversion()
+    });
+</script>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.frontLayout.front_design', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH G:\xampp\htdocs\loyalwagers\resources\views/front/index.blade.php ENDPATH**/ ?>

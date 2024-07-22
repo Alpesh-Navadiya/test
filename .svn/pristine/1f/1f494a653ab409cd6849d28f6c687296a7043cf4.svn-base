@@ -1,0 +1,58 @@
+<div id="overlay"></div>
+
+<footer class="footer">
+    <div class="container">
+        <!-- site wide live support chat box -->
+        <!-- <div id="support-chatbox-wrapper">
+            <div class="chatbox-wrapper">
+                <div class="support-chatbox__top">
+                    Need help with anything? Leave your message and our admins will be in touch ASAP.
+                </div>
+                <div class="chatbox" id="chatbox-support"></div>
+                <form action="">
+                    <input id="messege" name="usermsg" type="text" id="usermsg" placeholder="Type something..."/>
+                    <input id="chat_but" class="button button--main button--chat" name="submitmsg" type="submit"
+                        id="submitmsg" value="Send" />
+                </form>
+            </div>
+            <button id="live-support-btn"><img src="./assets/icons/headset_icon.svg" alt="" class="icon"><span class="live-support-btn__text">Live Support</span></button>
+        </div> -->
+
+        <div class="row w-100">
+            <div class="col col-12 col-md-3">
+                <span class="footer__copyright">
+                    Loyal Wagers &copy; 2020                </span>
+            </div>
+            <div class="col col-12 col-md-6">
+                <ul>
+                    <li><a href="<?php echo e(route('index')); ?>">Home</a></li>
+                    <li><a href="./wager_page.php">Wagers</a></li>
+                    <li><a href="<?php echo e(route('faq')); ?>">Faq</a></li>
+                    <li><a href="<?php echo e(route('contact-us')); ?>">Contact</a></li>
+                </ul>
+                <ul class="terms-privacy">
+                    <li><a href="<?php echo e(route('terms')); ?>">Terms and Conditions</a></li>
+                    <li><a href="<?php echo e(route('privacy-policy')); ?>">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col col-12 col-md-3 social-icons">
+            
+                <a href="https://discord.gg/crm4Fzb" target="__blank" rel="noopener noreferrer">
+                    <img class="icon" src="<?php echo e(url('public/assets/loyalwagers_logo.png')); ?>"  alt="image">
+                </a>
+                <a href="https://twitter.com/loyalwagers" target="__blank" rel="noopener noreferrer">
+                    <img class="icon" src="<?php echo e(url('public/assets/icons/twitter_blue.svg')); ?>" alt="image">
+                </a>
+                <a href="https://www.youtube.com/channel/UCeleoadttX5jRQyzGqvSEHQ" target="__blank" rel="noopener noreferrer">
+                    <img class="icon" src="<?php echo e(url('public/assets/icons/YT_blue.svg')); ?>" alt="image">
+                </a>
+                <a href="https://www.instagram.com/loyalwagers/" target="__blank" rel="noopener noreferrer">
+                    <img class="icon" src="<?php echo e(url('public/assets/icons/IG_blue.svg')); ?>" alt="image">
+                </a>
+               
+            </div>
+        </div>
+    </div>
+
+</footer>
+<?php /**PATH G:\xampp\htdocs\loyalwagers\resources\views/layouts/frontLayout/front_footer.blade.php ENDPATH**/ ?>

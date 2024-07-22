@@ -1,0 +1,63 @@
+<!-- <div class="message-wrapper">
+    <ul class="messages">
+        <?php $__currentLoopData = $messages; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $message): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+            <li class="message clearfix">
+                
+                <div class="<?php echo e(($message->from == Auth::id()) ? 'sent' : 'received'); ?>">
+                    <p><?php echo e($message->message); ?></p>
+                    <p class="date"><?php echo e(date('d M y, h:i a', strtotime($message->created_at))); ?></p>
+                </div>
+            </li>
+        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+    </ul>
+</div>
+
+<div class="input-text">
+    <input type="text" name="message" class="submit">
+</div>  -->
+
+    
+<div class="message-wrapper">
+            <?php $__currentLoopData = $messages; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $message): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <div class="media <?php echo e(($message->from == Auth::id()) ? 'media-chat' : 'media-chat media-chat-reverse'); ?> "> 
+                      <?php if($message->from == Auth::id()){ ?>
+                      <img class="avatar" src="<?php echo e(url('public/assets/character/ch2_final.png')); ?>" alt="img">
+                      <?php } else { ?>
+                        <img class="avatar" src="<?php echo e(url('public/assets/character/ch1_final.png')); ?>" alt="img">
+                      <?php } ?>
+                        <div class="media-body">
+                        <p><?php echo e($message->message); ?></p>
+                    <p class="date meta"><?php echo e(date('d M y, h:i a', strtotime($message->created_at))); ?> </p>
+                          <!-- <p class="meta"><time datetime="2018">23:58</time></p> -->
+                        </div>
+                </div>
+            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>    
+    
+                      <!-- <div class="media media-meta-day">Today</div> -->
+                      <!-- <div class="media media-chat media-chat-reverse">
+                        <div class="media-body">
+                          <p>Hiii, I'm good.</p>
+                          <p>How are you doing?</p>
+                          <p>Long time no see! Tomorrow office. will be free on sunday.</p>
+                          <p class="meta"><time datetime="2018">00:06</time></p>
+                        </div>
+                      </div> -->
+                      
+                      <!-- <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+                        <div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                      </div>
+                      <div class="ps-scrollbar-y-rail" style="top: 0px; height: 0px; right: 2px;">
+                        <div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 2px;"></div>
+                      </div> -->
+                    
+          
+                    
+
+                    <!-- <div class="input-text">
+    <input type="text" name="message" class="submit">
+</div> -->
+</div>
+<script>
+
+ 
+</script><?php /**PATH /var/www/html/Loyalwagers/resources/views/messages/index.blade.php ENDPATH**/ ?>

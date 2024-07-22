@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+    <meta name="description" content="Play Fortnite for real money by placing wagers. Easy matchmaking!">
+    <link rel="canonical" href="https://www.loyalwagers.com" />
+    <link rel="shortcut icon" href="<?php echo e(url('public/favicon.ico')); ?>" />
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="<?php echo e(url('public/css/bootstrap.min.css.css')); ?>">
+    
+    <link rel="stylesheet" href="<?php echo e(url('public/css/aos.css')); ?>" />
+    <link rel="stylesheet" href="<?php echo e(url('public/css/search_css.css')); ?>" />
+    <link rel="stylesheet" href="<?php echo e(url('public/css/main.css')); ?>">
+    <!-- <link rel="stylesheet" href="css/chat_css.css" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Ensures optimal rendering on mobile devices. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://www.google.com">
+    <script src="<?php echo e(url('public/js/jquery.min.js')); ?>"></script>
+    <title><?php echo $__env->yieldContent('title'); ?></title>
+</head>
+<body>
+<?php echo $__env->make('layouts.frontLayout.front_header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>  
+<main>
+  <?php echo $__env->yieldContent('content'); ?>
+</main>  
+<?php echo $__env->make('layouts.frontLayout.front_footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+
+<script src="<?php echo e(url('public/js/bootstrap.min.js')); ?>"></script>
+<script src="<?php echo e(url('public/js/popper.min.js')); ?>"></script>
+<script src="<?php echo e(url('public/js/aos.js')); ?>"></script>
+<script src="<?php echo e(url('public/js/global.js')); ?>"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149121343-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-149121343-3');
+    </script>
+</body>
+</html><?php /**PATH G:\xampp\htdocs\loyalwagers\resources\views/layouts/frontLayout/front_design.blade.php ENDPATH**/ ?>

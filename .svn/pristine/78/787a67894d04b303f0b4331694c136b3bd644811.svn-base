@@ -1,0 +1,89 @@
+
+<?php $__env->startSection('title','Faq'); ?>
+<?php $__env->startSection('content'); ?>
+<div class="hero hero--faq">
+    <div class="container">
+        <h1 data-aos="fade-up" data-aos-once="true" class="mb-0 pb-0 text-center">FAQ</h1>
+        <p class="ml-auto mr-auto mt-2">
+            Need more help? <a href="./contact.php">Contact us</a> through the contact form.
+        </p>
+    </div>
+</div>
+<section id="faq" class="pt-1">
+    <div class="container">
+        <div class="qa-wrapper">
+            <p class="question">How does it work? <img  src="<?php echo e(url('public/assets/icons/caret-down.svg')); ?>" alt="img"></p>
+            <div class="answer">
+                <p>
+                    1) Register for free to start.
+                </p>
+                <p>
+                    2) Go to your account page and deposit the money you want to use to wager.
+                </p>
+                <p>
+                    3) Go to the wagers page and choose the options for your wager and click place wager.
+                </p>
+                <p>
+                    4) When you've been matched up against an opponent and you're in the lobby room, add your opponents in-game name and discuss the rules in chat. Click confirm attendance whenever your ready to make sure you’re not AFK. You must confirm attendance in less than 5 minutes from entering the lobby.
+                </p>
+                <p>
+                    5) Your kills will automatically go up as your Fortnite kills go up which means that noone will be able to lie about their score! After one party reaches 5 kills the game will stop and the winner will get the combined wager! If the opponent leaves please click dispute and send a screenshot of the score.
+                </p>
+                <p>
+                    6) Withdraw from your wallet right into your paypal!
+                </p>
+            </div>
+        </div>
+        <div class="qa-wrapper">
+            <p class="question">How do i contact staff? <img  src="<?php echo e(url('public/assets/icons/caret-down.svg')); ?>" alt="img"></p>
+            <div class="answer">
+                <p>
+                    Send a message with a description of the issue through the contact form, or send an email to support@loyalwagers.com
+                </p>
+            </div>
+        </div>
+        <div class="qa-wrapper">
+            <p class="question">Do you have a Discord server? <img src="<?php echo e(url('public/assets/icons/caret-down.svg')); ?>" alt="img"></p>
+            <div class="answer">
+                <p>
+                    Yes! You can join the Discord server <a href="https://discord.gg/BT3AGFt">here.</a>
+                </p>
+            </div>
+        </div>
+        <div class="qa-wrapper">
+            <p class="question">How do I become an affiliate? <img src="<?php echo e(url('public/assets/icons/caret-down.svg')); ?>" alt="img"></p>
+            <div class="answer">
+                <p>
+                    You are eligible to get an affiliate code if you
+                    have 50+ invites or a mass following on any of the
+                    following social media - youtube, twitter, twitch or
+                    mixer.
+                </p>
+            </div>
+        </div>
+        <div class="qa-wrapper">
+            <p class="question">How do I become a content creator? <img src="<?php echo e(url('public/assets/icons/caret-down.svg')); ?>" alt="img"></p>
+            <div class="answer">
+                <p>
+                    If you meet any of these requirements, then you
+                    can become a content creator:
+                </p>
+                <ul>
+                    <li>1000+ subscribers on youtube </li>
+                    <li>500+ followers on twitch, mixer or twitter</li>
+                    <li>Note: this is not the same as affiliate</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    const qas = document.querySelectorAll(".qa-wrapper")
+    qas.forEach(qa => {
+    qa.addEventListener("click", () => {
+        qa.classList.toggle("is-expanded")
+    })
+})
+</script>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.frontLayout.front_design', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH G:\xampp\htdocs\loyalwagers\resources\views/front/faq.blade.php ENDPATH**/ ?>

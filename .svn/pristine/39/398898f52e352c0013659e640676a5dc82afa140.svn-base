@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149121343-3"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'UA-149121343-3');
+      </script>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="description" content="Play Fortnite for real money by placing wagers. Easy matchmaking!">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <link rel="canonical" href="https://www.loyalwagers.com" />
+      <link rel="shortcut icon" href="<?php echo e(url('public/favicon.ico')); ?>" />
+      <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <link href="<?php echo e(url('public/css/style.min.css')); ?>" rel="stylesheet">
+
+      <link rel="stylesheet" href="<?php echo e(url('public/css/bootstrap.min.css')); ?>">
+      <!-- <link rel="stylesheet" href="<?php echo e(url('public/css/filter.css')); ?>"> -->
+      <link rel="stylesheet" href="<?php echo e(url('public/css/animate.min.css')); ?>">
+      <link rel="stylesheet" href="<?php echo e(url('public/css/mdb.min.css')); ?>">
+      <link rel="stylesheet" href="<?php echo e(url('public/css/main.css')); ?>">
+      <link rel="stylesheet" href="<?php echo e(url('public/css/toastr.css')); ?>">
+
+      <script src="<?php echo e(url('public/js/jquery-3.5.1.js')); ?>"></script>
+
+
+      <title><?php echo $__env->yieldContent('title'); ?></title>
+      <style type="text/css">
+      .teambtn {
+    font-size: 13px !important;
+}
+        .toast-top-center {
+          top: 30%;
+          left:50%;
+          margin:0 0 0 -150px;
+      }
+      </style>
+   </head>
+<body>
+<?php echo $__env->make('layouts.frontLayout.front_header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+
+<main>
+  <?php echo $__env->yieldContent('content'); ?>
+
+</main>
+<?php echo $__env->make('layouts.frontLayout.front_footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+  <?php echo $__env->make('layouts.frontLayout.front_script', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+
+
+</body>
+</html><?php /**PATH /var/www/html/Loyalwagers/resources/views/layouts/frontLayout/front_design.blade.php ENDPATH**/ ?>

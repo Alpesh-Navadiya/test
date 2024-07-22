@@ -1,0 +1,6 @@
+<footer class="main-footer">
+    <strong>Copyright &copy; <?php echo date("Y"); ?>
+ <a>Loyel Wagers</a>.</strong>
+    All rights reserved.
+    
+  </footer><?php /**PATH /var/www/html/Loyalwagers/resources/views/layouts/adminLayout/admin_footer.blade.php ENDPATH**/ ?>

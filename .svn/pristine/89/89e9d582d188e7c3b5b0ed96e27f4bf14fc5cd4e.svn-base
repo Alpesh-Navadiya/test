@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ItsolutionStuff.com</title>
+</head>
+<body>
+<h1><?php echo e($email); ?></h1>
+<h1><?php echo e($subject); ?></h1>
+<p>This is my first Email using Laravel Application</p>
+    <p>Thank you</p>
+</body>
+</html><?php /**PATH G:\xampp\htdocs\loyalwagers\resources\views/emails/contactMail.blade.php ENDPATH**/ ?>
